@@ -1,0 +1,7 @@
+import tkinter as tk
+
+ventana = tk.Tk()
+ventana.title("Resolución ecuaciones de segundo grado")
+icono = tk.PhotoImage(file='icono.png')
+ventana.iconphoto(True, icono)
+ventana.mainloop()
